@@ -26,12 +26,6 @@ WinHdgVotesTitle = "Votes for :"
 WinHdgVotesName = ["","Candidate","=========="]
 WinDtlVotesPct = ["","Percent Vote","=========="]
 WinDtlVotesCount = ["","Number of Votes ","=========="]
-#>>WinntlName = ""
-#>>WinDtlPct = 0
-#>>WinDtlVotesEach = 0
-#>>WinDtlTotal = 0
-#>>WinDtlCandidates = 0
-#>>WinDtlChamp = ""
 
 with open (PyPoll_csv,newline="") as PyPoll_file:
     PyPoll_row = csv.reader(PyPoll_file,delimiter=',')
